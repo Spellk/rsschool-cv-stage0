@@ -15,6 +15,6 @@ multiply = function (a, b) {
 
 >No experience in IT. Worked in retail
 
-**education: higher (lawyer)**
+**Education: higher (lawyer)**
 
 >English level: b2
