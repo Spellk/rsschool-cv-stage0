@@ -25,6 +25,11 @@ body {
 
 .footer {
   border: 1px solid rgb(60, 59, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
 }
 
 .container {
@@ -34,9 +39,10 @@ body {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
+  padding-right: 35px;
 }
 
 .nav-link {
@@ -55,6 +61,7 @@ html {
 }
 
 .section {
+  padding-left: 10px;
   width: 80%;
 }
 
