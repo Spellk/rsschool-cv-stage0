@@ -70,42 +70,34 @@ html {
 }
 
 #contacts {
-  margin-top: 3px;
   background-color: gainsboro;
 }
 
 #summary {
-  margin-top: 3px;
 }
 
 #skills {
-  margin-top: 3px;
   background-color: gainsboro;
 }
 
 #code {
-  margin-top: 3px;
 }
 
 #courses {
-  margin-top: 3px;
   background-color: gainsboro;
 }
 
 #projects {
-  margin-top: 3px;
 }
 
 #education {
-  margin-top: 3px;
   background-color: gainsboro;
 }
 
 #languages {
-  margin-top: 3px;
 }
 
 #profile img {
-  box-shadow: 6px 6px 18px rgb(0 0 0 / 75%);
+  box-shadow: 6px 6px 18px rgb(0 0 0 / 55%);
   border-radius: 100px;
 }
