@@ -6,6 +6,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 * {
@@ -13,27 +15,30 @@ body {
 }
 
 .header {
-  border: 1px solid rgb(60, 59, 110);
+  font-weight: bold;
+  background-color: lightgrey;
+  overflow: auto;
 }
 
 .main {
-  border: 1px solid rgb(60, 59, 110);
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 
 .footer {
-  border: 1px solid rgb(60, 59, 110);
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   font-weight: bold;
+  background-color: gainsboro;
+  overflow: auto;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -55,14 +60,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.left-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .section {
   padding-left: 10px;
-  width: 80%;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -73,40 +73,40 @@ html {
 
 #contacts {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: gainsboro;
 }
 
 #summary {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
 }
 
 #skills {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: gainsboro;
 }
 
 #code {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
 }
 
 #courses {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: gainsboro;
 }
 
 #projects {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
 }
 
 #education {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: gainsboro;
 }
 
 #languages {
   margin-top: 3px;
-  border: 2px solid rgb(0, 0, 0);
+}
+
+#profile img {
+  box-shadow: 6px 6px 18px rgb(0 0 0 / 25%);
 }
